@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {        /*  reset */
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive; 
+}
+
+#menu{
+    background-color: #fff;
+}
+
+#menu ul {
+    max-width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li {
+    max-width: 100px;
+    display: inline;
+}
+
+#menu ul li a {
+    color: #1f1f1f;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-size: larger;
+}
+
+#menu ul li a:hover {
+   color: rgb(233, 24, 24);
+}
+
+
+#menu ul li:last-child a {
+    float: right;
+    width: 10%;
+}
+
+.container .box {
+    background-color:#ffffff;
+    width:100%;
+    display:table;
+}
+.container .box .box-row {
+    display:table-row;
+}
+.container .box .box-cell {
+    display:table-cell;
+    text-align: center;
+    align-content: center;
+    width:25%;
+    padding:10px;
+}
+
+#btnCompra{
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 25px;
+    width: 40%;
+    height: 100%;
+}
+
+#btnCompra a{
+    color: white;
+}
+
+#btnCompra a:hover{
+    color: rgb(233, 24, 24);
+    text-decoration: none;
+}
+
+#writeJordan{
+    font-size:100px;
+}
+
+#writeGrey{
+    font-size:50px;
+    color:#8e8e8e;
+}
+
+#products{
+    background-color: #1f1f1f;
+}
+
+#titleProdutos{
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+}
+
+
+#produtos{
+    max-width: 100%;
+    margin:0 auto;
+    padding:0 2%;
+    display: flex;
+    background-color: #1f1f1f;
+}
+
+.produto-single{
+    margin-top: 1%;
+    width: 32%;
+    margin-right: 1%;
+    
+}
+
+.produto-single img{
+    max-width: 100%;
+}
+
+#nameShoe{
+    color:white;
+    text-align: center;
+    font-size: 160%;
+}
+
+#valueShoe{
+    color: white;
+    text-align: center;
+    font-size: 140%;
+}
+
+#form{
+    text-align: center;
+}
+
+label{
+    font-size: 30px;
+}
+
+
+
+#inputText{
+    width: 40%;
+    height: 30px;
+}
+
+#mensagem{
+    width: 50%;
+}
+
+#btnForm{
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 25px;
+    width: 40%;
+    height: 100%;
+}
