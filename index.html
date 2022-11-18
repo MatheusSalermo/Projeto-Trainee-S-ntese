@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Projeto Trainee Síntese</title>
+</head>
+<body>
+    <header>
+        <!-- Menu -->
+        <nav id="menu">
+            <ul>
+             
+                <li>
+                    <a href="#">
+                        Home
+                    </a>
+                </li>  
+                <li>
+                    <a href="#">
+                        Sobre
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contato
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Login
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img id="imgMenu" src="./images/nike.png" style="width:60%; height: 60%;">
+                    </a>
+                </li> 
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <!-- Seção Inicial -->
+    <section id="inicio">
+        <div class="container">
+            <div class="box">
+                <div class="box-row">
+                    <div class="box-cell box1">
+                        <img src="./images/jordan.webp" id="ney1" style="width:100%;height:100%">
+                
+                    </div>
+                    <div class="box-cell box2">
+                        <p id="writeJordan">AIR JORDAN 1</p> 
+                        <p id="writeGrey">"GREY FROG"</p>
+                        <button id="btnCompra"><a href="#">COMPRAR</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section id="products">
+        <div id="titleProdutos">
+            <h1 id="tituloProd">DÊ UMA CONFERIDA NOS NOSSOS MAIS NOVOS LANÇAMENTOS!</h1>
+        </div>
+        <div id="produtos">
+            <div class="produto-single">
+                <img src="./images/dunk.webp">
+                <p id="nameShoe">Dunk Panda</p>
+                <p id="valueShoe">R$ 4.200,00</p>
+            </div>
+            <div class="produto-single">
+                <img src="./images/jordan1red.webp">
+                <p id="nameShoe">Air Jordan 1</p>
+                <p id="valueShoe">R$ 900,00</p>
+            </div>
+            <div class="produto-single">
+                <img src="./images/outroJordan.jpg">
+                <p id="nameShoe">Air Jordan 1</p>
+                <p id="valueShoe">R$ 2.300,00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="form">
+        <div id="area">
+            <form id="formulario" autocomplete="off">
+              <fieldset>
+                <h1>CONTATO</h1>
+                <label>Nome:</label><input class="campo_nome" type="text" id="inputText"><br>
+                <label>Email:</label><input class="campo_email" type="text" id="inputText"><br>
+                <label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8" id="mensagem"></textarea><br>
+                <input class="btn_submit" id="btnForm" type="submit" value="Enviar">
+              </fieldset>
+            </form>
+          </div>
+        </section>
+</main>
+
+    <!-- Rodapé -->
+    <footer id="footer-basic">
+        <center>
+        <ul class="list-inline" style="margin-top:2%">
+            <li class="list-inline-item"><a style="color:black" href="#">Home</a></li>
+            <li class="list-inline-item"><a style="color:black" href="#">Sobre</a></li>
+            <li class="list-inline-item"><a style="color:black" href="#">Contato</a></li>
+            <li class="list-inline-item"><a style="color:black" href="#">Login</a></li>
+        </ul>
+        <p class="copyright">Matheus Salermo © 2022</p>
+        </center>
+    </footer>
+</body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<!-- Sim, eu dei uma roubadinha no footer e usei framework por conta do tempo, sem ressentimentos!!! -->
+</html>
